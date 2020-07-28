@@ -48,7 +48,7 @@ function createRock(x) {
   GAME.appendChild(rock);
 
     function moveRock() {
-    
+     rock.style.top = `${top += 2}px`;
   ROCKS.push(rock)
 
   
